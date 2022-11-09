@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+
+}
+
+ .container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(357.48deg, #515151 -4.6%, rgba(255, 255, 255, 0.71) 69.06%);
+}
+.navbar{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+   padding:40px 0px;
+}
+.menu ul li{
+    
+    display:inline-block;
+    padding:10px 30px;
+    align-items:center;
+}
+.menu a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0.135em;
+    color: #000000;
+    transition:0.3s
+}
+.menu a:hover{
+    color:#EF1C24 ;
+    transition:0.3s
+}
+#first{
+    color: #EF1C24 
+}
+
+/* main content */
+
+.main_section{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.content{
+    padding: 30px;
+    margin: 20px;
+}
+
+.content h1 {
+    font-style: italic;
+    font-weight: 900;
+    font-size: 125.304px;
+    line-height: 150px;
+    color: #676767;  
+}
+.content span {
+    color: #EF1C24;
+
+}
+.content h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 52px;
+    line-height: 63px;
+    color: #496A93;
+}
+.container p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #676767;
+    text-align: justify;
+}
+.content h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50.4334px;
+    line-height: 61px;
+    color: #EF1C24;
+    margin-bottom: 40px;
+}
+button{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    background: #676767;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: #FFFFFF;
+    color: #676767;
+    transition: 0.3s;
+}
